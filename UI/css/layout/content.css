@@ -1,0 +1,43 @@
+.page-content{
+    width: 100%;
+    padding: 0 12px;
+    border-left: 1px solid #dddddd;
+}
+
+.content__head{
+    padding: 12px 0;
+}
+
+.content__head--up{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    line-height: 32px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.content__head--down{
+    display: flex;
+    justify-content: space-between;
+}
+
+.department,
+.position{
+    height: 42px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    margin-left: 8px;
+    width: 150px;
+}
+
+.refresh{
+    width: 42px;
+    height: 36px;
+    background-image: url(../../assets/icon/refresh.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.m-btn{
+    background-color: #019160;
+    border-radius: 4px;
+    height: 40px;
+    padding: 0 24px;
+    min-width: 100px;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.m-btn:hover{
+    background-color: #2fbe8e;
+    cursor: pointer;
+}
+
+.m-btn:active{
+    background-color: #01b075;
+}
+
+.m-btn__icon{
+    padding-left: 16px;
+}
+
+.m-btn__icon i{
+    padding-right: 8px;
+    font-size: 14px;
+}

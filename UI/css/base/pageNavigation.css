@@ -1,0 +1,59 @@
+.page-row{
+    display: flex;
+    height: 56px;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+
+.page__content{
+    display: flex;
+}
+
+.page-nav__btn{
+    margin: 0 8px;
+    height: 32px;
+    width: 24px;
+    border-radius: 4px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.page-nav__btn:hover{
+    background-color: #ffffff;
+    border: none;
+}
+
+.page-btn{
+    margin: 0 4px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 32px;
+    font-size: 13px;
+    color: #000;
+    border: 1px solid #bbbbbb;
+}
+
+.page-active{
+    background-color: #019160;
+    color: #ffffff;
+    border: none;
+}
+
+.page-btn:hover{
+    border: none;
+    background-color: #ffffff;
+    color: #000;
+}
+
+.page__message{
+    font-size: 16px;
+    outline: none;
+    color: rgb(102, 101, 101);
+}
+
+.page-strong{
+    color: #000;;
+}
