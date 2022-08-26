@@ -18,10 +18,13 @@
 
 .pop-up__cancel-btn:hover{
     cursor: pointer;
+    background-color: #dddddd;
+    border-radius: 4px;
 }
 
 .pop-up__title{
     margin: 24px;
+    font-size: 18px;
     font-family: GoogleSands-bold;
 }
 

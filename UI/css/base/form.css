@@ -1,0 +1,95 @@
+.m-form{
+    width: 800px;
+}
+
+.form__content{
+    margin: 24px 24px 8px 24px;
+}
+
+.content__row--1col{
+    width: 100%;
+}
+
+.form__name{
+    font-size: 24px;
+    margin: 24px;
+    opacity: 0.8;
+}
+
+.form__label,
+.form__input{
+    width: 100%;
+}
+
+.form__label{
+    font-weight: 700;
+}
+
+.form__compulsory::after{
+    content: " *";
+    color: red;
+    font-weight: 400;
+}
+
+.form__input{
+    height: 36px;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+}
+
+.form__input::placeholder{
+    color: #bbbbbb;
+}
+
+.content__row--2col{
+    width: 100%;
+    display: flex;
+}
+
+.row-2col__left{
+    flex: 1;
+    padding-right: 16px;
+    box-sizing: border-box;
+}
+
+.row-2col__right{
+    flex: 1;
+}
+
+.form__content--infor{
+    display: flex;
+    width: 100%;
+}
+
+.form__content--left{
+    flex-grow: 1;
+    padding: 0 12px;
+}
+
+.form__content--right{
+    flex-grow: 3;
+}
+
+.content-left__img{
+    width: 90%;
+    height: 170px;
+    background-image: url(../../assets/img/default-avatar.jpg);
+    border: 1px solid #bbbbbb;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form__title{
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.form__title--line{
+    margin: 8px 0;
+    width: 80px;
+    height: 4px;
+    background-color: #019160;
+}
